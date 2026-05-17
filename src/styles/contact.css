@@ -1,0 +1,20 @@
+.contact-box {
+  text-align: center;
+}
+
+.contact-box h2 {
+  margin-bottom: 1rem;
+}
+
+.contact-box p {
+  color: #94a3b8;
+  margin-bottom: 2rem;
+}
+
+.contact-box a {
+  background: #38bdf8;
+  color: #0f172a;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  font-weight: bold;
+}

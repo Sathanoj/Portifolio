@@ -10,7 +10,7 @@ export default function Contact() {
           Quer trocar uma ideia ou ver mais projetos?
         </p>
 
-        <a href="mailto:seuemail@email.com">
+        <a href="mailto:jonathassmnz@gmail.com">
           Entrar em Contato
         </a>
       </div>

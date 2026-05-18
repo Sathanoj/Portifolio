@@ -10,8 +10,8 @@ export default function Projects() {
         <div className="projects-grid">
           <ProjectCard
             title="Engine 2D"
-            description="Engine 2D feita em C++ utilizando OpenGL para renderização e gerenciamento de entidades."
-            tags={['C++', 'OpenGL', 'GameDev']}
+            description="Engine 2D feita em C# utilizando OpenGL para renderização e gerenciamento de entidades."
+            tags={['C#', 'OpenGL', 'GameDev']}
           />
 
           <ProjectCard

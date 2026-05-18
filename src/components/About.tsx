@@ -9,14 +9,14 @@ export default function About() {
 
           <p>
             Desenvolvedor focado principalmente em backend,
-            sistemas, engines e renderização gráfica.
-            Gosto de estudar arquitetura de software,
-            Linux e desenvolvimento low-level.
+            sistemas, engines e renderização gráfica e game development.
+            Gosto de estudar arquitetura de software e
+            Linux.
           </p>
         </div>
 
         <div>
-          <h2>Tecnologias</h2>
+          <h2>Tecnologias mais usadas</h2>
 
           <div className="skills">
             <span>Java</span>
@@ -25,7 +25,7 @@ export default function About() {
             <span>TypeScript</span>
             <span>MongoDB</span>
             <span>Docker</span>
-            <span>C++</span>
+            <span>C#</span>
             <span>OpenGL</span>
             <span>Python</span>
           </div>

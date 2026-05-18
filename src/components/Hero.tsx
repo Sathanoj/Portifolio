@@ -1,4 +1,5 @@
 import '../styles/hero.css'
+import Cube from './Cube'
 
 export default function Hero() {
   return (
@@ -53,38 +54,11 @@ export default function Hero() {
 
             <div className="terminal-content">
 
-              <p>
-                <span className="green">
-                  jonathas@linux
-                </span>
-                :~/engine$
-              </p>
-
-              <p>Initializing renderer...</p>
-              <p>Loading shaders...</p>
-              <p>Generating entities...</p>
-              <p>Renderer initialized.</p>
-
-              <br />
-
-              <p className="blue">
-                FPS: 144
-              </p>
-
-              <p className="blue">
-                Entities: 220
-              </p>
-
-              <p className="blue">
-                OpenGL Context: OK
-              </p>
+              <Cube />
 
             </div>
-
           </div>
-
         </div>
-
       </div>
 
     </section>

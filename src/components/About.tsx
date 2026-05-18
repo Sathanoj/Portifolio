@@ -8,10 +8,7 @@ export default function About() {
           <h2>Sobre Mim</h2>
 
           <p>
-            Desenvolvedor focado principalmente em backend,
-            sistemas, engines e renderização gráfica e game development.
-            Gosto de estudar arquitetura de software e
-            Linux.
+            Desenvolvedor focado principalmente em renderização gráfica e game development.
           </p>
         </div>
 
@@ -19,15 +16,12 @@ export default function About() {
           <h2>Tecnologias mais usadas</h2>
 
           <div className="skills">
-            <span>Java</span>
-            <span>Spring Boot</span>
             <span>React</span>
             <span>TypeScript</span>
-            <span>MongoDB</span>
+            <span>Python</span>
             <span>Docker</span>
             <span>C#</span>
             <span>OpenGL</span>
-            <span>Python</span>
           </div>
         </div>
       </div>

@@ -19,7 +19,7 @@ function RotatingCube() {
 
     <mesh ref={meshRef}>
 
-      <boxGeometry args={[3, 3, 3]} />
+      <boxGeometry args={[2, 2, 2]} />
 
       <MeshDistortMaterial
         color="#38bdf8"

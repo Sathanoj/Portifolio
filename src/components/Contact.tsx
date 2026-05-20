@@ -13,6 +13,10 @@ export default function Contact() {
         <a href="mailto:jonathassmnz@gmail.com">
           Entrar em Contato
         </a>
+        
+        <a href="https://github.com/Sathanoj">
+          GitHub
+        </a>
       </div>
     </section>
   )

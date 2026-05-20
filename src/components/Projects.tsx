@@ -1,32 +1,66 @@
+import { useState } from 'react'
+
 import ProjectCard from './ProjectCard'
+import ProjectModal from './ProjectModal'
+
+import { projects } from '../data/projects'
+
 import '../styles/projects.css'
 
 export default function Projects() {
+
+  const [selectedProject, setSelectedProject]
+    = useState<any>(null)
+
   return (
-    <section id="projects" className="projects-section">
+
+    <section
+      id="projects"
+      className="projects-section"
+    >
+
       <div className="container">
+
         <h2>Projetos</h2>
 
         <div className="projects-grid">
-          <ProjectCard
-            title="Engine 2D"
-            description="Engine 2D feita em C# utilizando OpenGL para renderização e gerenciamento de entidades."
-            tags={['C#', 'OpenGL', 'GameDev']}
-          />
 
-          <ProjectCard
-            title="Flashcards API"
-            description="API REST desenvolvida em Java Spring Boot para gerenciamento de estudos e flashcards."
-            tags={['Java', 'Spring Boot', 'MongoDB']}
-          />
+          {projects.map((project) => (
 
-          <ProjectCard
-            title="Linux Launcher"
-            description="Launcher rápido para Linux focado em produtividade e busca instantânea de arquivos."
-            tags={['Python', 'Linux', 'Desktop']}
-          />
+            <div
+              key={project.id}
+              onClick={() =>
+                setSelectedProject(project)
+              }
+            >
+
+              <ProjectCard
+                title={project.title}
+                description={project.description}
+                tags={project.technologies}
+              />
+
+            </div>
+
+          ))}
+
         </div>
+
       </div>
+
+      {selectedProject && (
+
+        <ProjectModal
+          project={selectedProject}
+          onClose={() =>
+            setSelectedProject(null)
+          }
+        />
+
+      )}
+
     </section>
+
   )
+
 }
